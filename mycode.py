@@ -1,4 +1,5 @@
-for i in range(4):
-    for j in range (4):
+rows = int(input('ENTER THE OF ROWS U WANTS : '))
+for i in range(rows):
+    for j in range (rows):
         print("*",end="")
     print()
